@@ -47,9 +47,12 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                app:startIconDrawable="@drawable/icuser"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tietNombre"
@@ -63,9 +66,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                app:startIconDrawable="@drawable/icuser"
                 app:layout_constraintEnd_toEndOf="@id/tilNombre"
                 app:layout_constraintStart_toStartOf="@id/tilNombre"
-                app:layout_constraintTop_toBottomOf="@id/tilNombre">
+                app:layout_constraintTop_toBottomOf="@id/tilNombre"
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tietApellido"
@@ -80,6 +85,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                app:startIconDrawable="@drawable/ic_mail"
                 app:layout_constraintEnd_toEndOf="@id/tilApellido"
                 app:layout_constraintStart_toStartOf="@id/tilApellido"
                 app:layout_constraintTop_toBottomOf="@id/tilApellido">
@@ -97,6 +103,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                app:startIconDrawable="@drawable/icphone"
                 app:layout_constraintEnd_toEndOf="@id/tilCorreo"
                 app:layout_constraintStart_toStartOf="@id/tilCorreo"
                 app:layout_constraintTop_toBottomOf="@id/tilCorreo">
@@ -142,7 +149,7 @@
                 app:layout_constraintEnd_toEndOf="@id/tilFechaNacimiento"
                 app:layout_constraintStart_toStartOf="@id/tilFechaNacimiento"
                 app:layout_constraintTop_toBottomOf="@id/tilFechaNacimiento"
-                app:startIconDrawable="@drawable/ic_calendar">
+                app:startIconDrawable="@drawable/ictarjeta">
 
                 <AutoCompleteTextView
                     android:id="@+id/actTipoDocumento"
@@ -164,7 +171,7 @@
                 app:layout_constraintEnd_toEndOf="@id/tilTipoDocumento"
                 app:layout_constraintStart_toStartOf="@id/tilTipoDocumento"
                 app:layout_constraintTop_toBottomOf="@id/tilTipoDocumento"
-                app:startIconDrawable="@drawable/ic_calendar">
+                app:startIconDrawable="@drawable/ictarjeta">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tietNumeroDocumento"
