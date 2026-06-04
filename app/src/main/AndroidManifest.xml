@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica02">
         <activity
-            android:name=".PractApiRest"
+            android:name=".actlogopichincha"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Pantalla de inicio (LAUNCHER) -->
+        <activity
+            android:name=".PractApiRest"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Pantalla de inicio (LAUNCHER) -->
         <activity
             android:name=".actlogo"
             android:exported="true" />
