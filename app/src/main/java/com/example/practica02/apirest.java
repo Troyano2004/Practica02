@@ -38,7 +38,7 @@ public class apirest extends AppCompatActivity {
 
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.GET,
-                "https://reqres.in/api/collections/alumnos/records?x-api-key=pub_bf56644bb321c3b811fdd148594b6f596de208551a5d8fc67e5e632f08e013a1",
+                "",
                 null,
                 response -> {
                     try {
@@ -66,7 +66,7 @@ public class apirest extends AppCompatActivity {
             @Override
             public Map<String, String> getHeaders() {
                 Map<String, String> headers = new HashMap<>();
-                headers.put("x-api-key", "pub_bf56644bb321c3b811fdd148594b6f596de208551a5d8fc67e5e632f08e013a1");
+                headers.put("x-api-key", "");
                 return headers;
             }
         };
